@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "outDir": "./.ts-node",
+        "rootDir": "./src"
+    },
+    "extends": "@tsconfig/node16/tsconfig.json",
+    "include": [
+        "./src/**/*"
+    ],
+    "ts-node": {
+        "compilerOptions": {},
+        "files": true,
+        "transpileOnly": true
+    }
+}

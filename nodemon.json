@@ -1,0 +1,5 @@
+{
+    "exec": "node --trace-deprecation --abort-on-uncaught-exception -r ts-node/register ./src/index.ts",
+    "ext": "ts",
+    "verbose": false
+}

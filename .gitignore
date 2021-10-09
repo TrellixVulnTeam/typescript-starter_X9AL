@@ -1,0 +1,12 @@
+.yarn/*
+.pnp.*
+!/.yarn/patches
+!/.yarn/plugins
+!/.yarn/releases
+!/.yarn/sdks
+!/.yarn/versions
+
+.env
+.ts-node
+yarn-error.log
+.DS_Store
