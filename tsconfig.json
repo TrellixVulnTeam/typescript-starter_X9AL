@@ -1,6 +1,18 @@
 {
     "compilerOptions": {
+        "allowUnreachableCode": false,
+        "allowUnusedLabels": false,
+        "exactOptionalPropertyTypes": true,
+        "noEmitOnError": true,
+        "noFallthroughCasesInSwitch": false,
+        "noImplicitOverride": false,
+        "noImplicitReturns": false,
+        "noPropertyAccessFromIndexSignature": true,
+        "noUncheckedIndexedAccess": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
         "outDir": "./.ts-node",
+        "resolveJsonModule": true,
         "rootDir": "./src"
     },
     "extends": "@tsconfig/node16/tsconfig.json",
@@ -10,6 +22,6 @@
     "ts-node": {
         "compilerOptions": {},
         "files": true,
-        "transpileOnly": true
+        "transpileOnly": false
     }
 }

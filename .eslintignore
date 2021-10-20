@@ -1,3 +1,5 @@
 .ts-node
 coverage
 node_modules
+
+.eslintrc.js
